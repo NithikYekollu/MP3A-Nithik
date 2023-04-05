@@ -83,7 +83,7 @@ const asyncAwaitNetworkRequests = async () => {
   const downloadURL = await getDownloadURL(result.ref);
   const socialDoc: SocialModel = {
     eventName: eventName,
-    eventDate: eventDate.getTime(),
+    eventDate: eventDate,
     eventLocation: eventLocation,
     eventDescription: eventDescription,
     eventImage: downloadURL,

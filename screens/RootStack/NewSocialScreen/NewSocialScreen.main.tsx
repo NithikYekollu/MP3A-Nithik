@@ -129,13 +129,12 @@ export default function NewSocialScreen({ navigation }: Props) {
 
       // (1) Write the image to Firebase Cloud Storage. Make sure to do this
       // using an "await" keyword, since we're in an async function. Name it using
-      // the uuid provided below.
-
+      // the uuid provided belo
       // (2) Get the download URL of the file we just wrote. We're going to put that
       // download URL into Firestore (where our data itself is stored). Make sure to
       // do this using an async keyword.
 
-      // (3) Construct & write the social model to the "socials" collection in Firestore.
+    //truct & write the social model to the "socials" collection in Firestore.
       // The eventImage should be the downloadURL that we got from (3).
       // Make sure to do this using an async keyword.
       
